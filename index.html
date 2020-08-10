@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Updates</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      /*background-color:#123654;*/
+    }
+    #fontstyle{
+
+      color:white;
+    }
+    #input1{
+
+      width: 200px;
+      font-size: 17px;
+      height:20px;
+      /*background-color: white;*/
+      color: black;
+      /*border: 2px solid black;*/
+      border-radius: 5px;
+
+      font-family:  Arial, Helvetica, sans-serif;
+      margin-left: 10px;
+      }
+      h2{
+        margin-left: 5px;
+        color:white;
+      }
+      #btn1{
+
+        background-color: #123aaa;
+        color: white;
+        border: 2px solid blue;
+        border-radius: 15px;
+        width: 100px;
+        height: 28px;
+
+      }
+      #btn1:hover{
+        background-color: black;
+      }
+      #btn:active{
+        background-color: black;
+      }
+      #btn:visited{
+        background-color: green;
+      }
+  </style>
+  <script src="library/p5.js"></script>
+  <script src="library/p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+<!--    <script src="Europe.json"></script>-->
+</head>
+
+<body >
+  <h1 id="fontstyle">Enter the city to see the current temperature.</h1>
+  <br/>
+<h2>City:</h2><input id="input1" placeholder="Enter any city" value="London">
+<button id="btn1">Get data</button>
+<br>
+<br>
+<hr style="color:white">
+<br>
+<br>
+  <main>
+  </main>
+</body>
+
+</html>
